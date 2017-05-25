@@ -20,10 +20,11 @@ $(document).ready(function(){
     var age = $('#age').val();
     var city = $('#city').val();
     var body = $('#body').val();
-    var imageURL = $('#image').val();
+    var imageURL = $('#imageURL').val();
     var newPerson = new Person(name, age, city, imageURL, body);
     $.get(newPerson.city).then(function(response) {
       newPerson.location = response.results[0].geometry.location;
+      console.log(newPerson)
       console.log(newPerson.location);
       newPerson.createMarker(map);
     });

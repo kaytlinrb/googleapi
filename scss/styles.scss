@@ -1,4 +1,6 @@
-
+#profile {
+  display: none;
+}
 
 #map {
   width: 100%;
@@ -17,4 +19,9 @@ body {
   font-size: 6rem;
   text-align: center;
   font-weight: bold;
+}
+
+img {
+  border-radius: 10%;
+  width: 100%;
 }
