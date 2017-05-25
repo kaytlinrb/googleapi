@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Love Me
+    </title>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading webTitle">Mail Order Brides
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="map"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Add Profile</h3>
+              <form id="addProfile">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input id="name" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="age">Age</label>
+                  <input id="age" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input id="city" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="image">Image URL</label>
+                  <input id="image" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="body">About you</label>
+                  <textarea id="body" class="form-control" rows="4" cols="20"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+            </div>
+            <div class="col-md-6" id="profile">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ81dnN9D27_Him3m23mC7WZlkBMzo0iA&callback=initMap">
+  </script>
+  </body>
+</html>
